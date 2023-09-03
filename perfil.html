@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLD Wear</title>
+  <link rel="icon" href="./assets/favicons/favicon-16x16.png" type="image/png"> 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-stone-200 flex flex-col">
+
+    <!-- Menu Carrinho
+    <section id="carrinho"
+    class="fixed top-0 right-[-360px] bg-slate-950 h-screen w-[360px] text-slate-200 z-50 duration-500 border-l border-slate-200 p-5 flex flex-col justify-between">
+    <div id="cabecalho-carrinho" class="flex justify-between m-4">
+      <p>Meu Carrinho</p>
+      <button id="fechar-carrinho"><i class="fa-solid fa-circle-xmark"></i></button>
+    </div>
+
+     Produtos Carrinho 
+    <section id="produtos-carrinho" class="h-3/5 overflow-y-auto flex flex-col gap-2">
+
+    </section>
+    <p id="preco-total" class="text-slate-200 text-lg font-bold rounded-sm pl-5">Total: R$0</p>
+    <button id="finalizar-compra"
+        class="bg-slate-200 text-slate-900 font-bold m-4 p-2 hover:bg-green-600 duration-200 rounded-xl hover:bg-slate-900 hover:text-slate-200">Finalizar
+        Compra</button>
+  </section> -->
+
+   <!-- Menu Hamburguer -->
+   <section id="menu-hamb"
+   class="fixed top-0 right-[-360px] bg-slate-950 h-screen w-[360px] text-slate-200 z-40 duration-500 border-l border-slate-200 p-5">
+   <div id="cabecalho-menu-hamb" class="flex justify-between m-4">
+     <img class="h-4" src="./assets/logo/Logo OLD Glitch.png" alt="Logo OLD">
+     <button id="fechar-menu-hamb"><i class="fa-solid fa-circle-xmark"></i></button>
+   </div>
+   <section class="text-slate-200 flex flex-col gap-6 mx-6">
+
+     <!-- <button id="carrinho-menu-hamb" class="hover:border-b-2 border-slate-200 px-6">Carrinho<i
+         class="fa-solid fa-cart-shopping"></i></button> -->
+     <a href="./perfil.html" class="hover:border-b-2 border-slate-200">Perfil</a>
+     <a href="#" class="hover:border-b-2 border-slate-200">Shop</a>
+     <a href="#" class=" hover:border-b-2 border-slate-200 ">Lookbook</a>
+     <a href="#" class="hover:border-b-2 border-slate-200">Sobre Nós</a>
+     <a href="#" class="hover:border-b-2 border-slate-200">Contato</a>
+
+   </section>
+ </section>
+
+  <header class="flex bg-slate-950 p-2 justify-between sticky top-0 shadow-lg shadow-slate-800 z-10">
+
+    <a href="./index.html">
+      <img class="h-8" src="./assets/logo/Logo OLD Glitch.png" alt="Logo OLD" />
+    </a>
+
+    <div class="text-slate-200 flex gap-6 items-center hidden lg:contents">
+      <a href="#" class=" hover:border-b-2 border-slate-200 ">Shop</a>
+      <a href="#" class=" hover:border-b-2 border-slate-200 ">Lookbook</a>
+      <a href="#" class=" hover:border-b-2 border-slate-200 ">Sobre Nós</a>
+      <a href="#" class=" hover:border-b-2 border-slate-200 ">Contato</a>
+    </div>
+
+    <div class="text-slate-200 flex gap-6 mx-6 items-center">
+      <!-- <a href="./perfil.html">
+        <button class="hover:border-b-2 border-slate-200 hidden lg:contents xl:contents 2xl:contents"><i
+            class="fa-solid fa-user"></i></button></a> -->
+
+      <!-- <button id="abrir-carrinho"
+        class=" hover:border-b-2 border-slate-200 hidden lg:contents xl:contents 2xl:contents"><i
+          class="fa-solid fa-cart-shopping"></i></button> -->
+
+      <button id="abrir-menu-hamb" class=" hover:border-b-2 border-slate-200 contents lg:hidden xl:hidden 2xl:hidden"><i
+          class="fa-solid fa-bars"></i></button>
+    </div>
+
+  </header>
+
+
+  <main class="bg-stone-200 flex flex-col items-center">
+    <p class="font-bold text-xl text-slate-950 my-5">Meus Pedidos</p>
+  </main>
+  <script src="./perfil.js" type="module"></script>
+</body>
+</html>
